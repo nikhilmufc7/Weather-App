@@ -16,7 +16,7 @@ $(function() {
       var lat = ipINFO.lat,
       long = ipINFO.lon,
       city = ipINFO.city + ", " + ipINFO.region,
-      owApiUrl = "http://api.openweathermap.org/data/2.5/weather?lat=" + lat + "&lon=" + long + "&units=" + unitType + "&appid=" + owAppId;
+      owApiUrl = "https://api.openweathermap.org/data/2.5/weather?lat=" + lat + "&lon=" + long + "&units=" + unitType + "&appid=" + owAppId;
       
       // Call getWeather to retrieve and display the data.
       // Additionally, pass the city string as it contains
